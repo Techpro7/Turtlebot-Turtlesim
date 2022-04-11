@@ -1,0 +1,8 @@
+prefix=/home/pranjal/flyt_ws/install
+
+Name: goal1
+Description: Description of goal1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

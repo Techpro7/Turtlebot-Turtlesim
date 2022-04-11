@@ -1,0 +1,13 @@
+<launch>
+      <node pkg="goal4" name="turtle1" type="turtle_chase_controller">
+            <remap from="cmd_vel" to ="/turtle1/cmd_vel"/>  
+            <remap from="pose" to ="/turtle1/pose"/>
+      </node>
+
+      <node pkg="goal4" name="turtle2" type="turtle_chase_controller">
+            <remap from="cmd_vel" to ="/turtle2/cmd_vel"/>  
+            <remap from="pose" to ="/turtle2/pose"/>
+            <remap from="goal" to ="/turtle1/pose"/>
+      </node>
+
+</launch>

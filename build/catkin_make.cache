@@ -1,0 +1,2 @@
+goal1:goal2:goal3:goal4
+-DCATKIN_DEVEL_PREFIX=/home/pranjal/flyt_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pranjal/flyt_ws/install -G Unix Makefiles
